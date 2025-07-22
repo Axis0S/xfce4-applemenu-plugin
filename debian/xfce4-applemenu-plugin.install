@@ -1,0 +1,4 @@
+usr/lib/*/xfce4/panel/plugins/*.so
+usr/share/xfce4/panel/plugins/*.desktop
+usr/share/icons/hicolor/*/apps/apple-logo.svg
+usr/share/locale/*/LC_MESSAGES/*.mo

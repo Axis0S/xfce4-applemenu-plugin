@@ -1,0 +1,114 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-21 11:48+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/applemenu.c:90 ../src/applemenu.desktop.in.h:1
+msgid "Apple Menu"
+msgstr ""
+
+#. About This Computer
+#: ../src/applemenu.c:178
+msgid "_About This Computer"
+msgstr ""
+
+#. System Preferences
+#: ../src/applemenu.c:192
+msgid "System _Preferences..."
+msgstr ""
+
+#. App Store (Pamac)
+#: ../src/applemenu.c:201
+msgid "_App Store..."
+msgstr ""
+
+#: ../src/applemenu.c:216
+msgid "Recent _Items"
+msgstr ""
+
+#. Force Quit
+#: ../src/applemenu.c:230
+msgid "_Force Quit..."
+msgstr ""
+
+#. Sleep
+#: ../src/applemenu.c:244
+msgid "_Sleep"
+msgstr ""
+
+#. Restart
+#: ../src/applemenu.c:253
+msgid "_Restart..."
+msgstr ""
+
+#. Shut Down
+#: ../src/applemenu.c:262
+msgid "Shut _Down..."
+msgstr ""
+
+#. Lock Screen
+#: ../src/applemenu.c:276
+msgid "_Lock Screen"
+msgstr ""
+
+#. Log Out
+#: ../src/applemenu.c:285
+msgid "Log _Out..."
+msgstr ""
+
+#. Create dialog
+#: ../src/applemenu.c:347
+msgid "About This Computer"
+msgstr ""
+
+#: ../src/applemenu.c:350
+msgid "_Close"
+msgstr ""
+
+#: ../src/applemenu.c:366
+msgid "System Information"
+msgstr ""
+
+#: ../src/applemenu.c:390
+msgid "Failed to open System Preferences"
+msgstr ""
+
+#: ../src/applemenu.c:401
+msgid "Failed to open App Store (Pamac Manager)"
+msgstr ""
+
+#: ../src/applemenu.c:412
+msgid "Failed to launch Force Quit"
+msgstr ""
+
+#: ../src/applemenu.c:423
+msgid "Failed to suspend system"
+msgstr ""
+
+#: ../src/applemenu.c:434
+msgid "Failed to restart system"
+msgstr ""
+
+#: ../src/applemenu.c:445
+msgid "Failed to shutdown system"
+msgstr ""
+
+#: ../src/applemenu.c:456
+msgid "Failed to lock screen"
+msgstr ""
+
+#: ../src/applemenu.c:467
+msgid "Failed to log out"
+msgstr ""
+
+#: ../src/applemenu.desktop.in.h:2
+msgid "macOS-style system menu for XFCE"
+msgstr ""

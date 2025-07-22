@@ -1,0 +1,61 @@
+# Meson build directories
+build/
+builddir/
+_build/
+
+# Generated files
+*.gmo
+config.h
+
+# Compilation files
+*.o
+*.so
+*.a
+
+# Editor backup files
+*~
+*.swp
+*.swo
+*.bak
+
+# Translation files
+/po/*.pot
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Old build system files (remove if found)
+Makefile
+Makefile.in
+aclocal.m4
+autom4te.cache/
+build-aux/
+config.*
+configure
+libtool
+m4/
+stamp-h1
+.libs/
+.deps/
+*.lo
+*.la
+
+# Debian package build files
+debian/files
+debian/*.log
+debian/*.substvars
+debian/*.debhelper
+debian/debhelper-build-stamp
+debian/xfce4-applemenu-plugin/
+debian/.debhelper/
+debian/tmp/
+
+# Shell scripts (except install.sh)
+*.sh
+!install.sh

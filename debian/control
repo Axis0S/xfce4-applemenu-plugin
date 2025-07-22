@@ -1,0 +1,36 @@
+Source: xfce4-applemenu-plugin
+Section: xfce
+Priority: optional
+Maintainer: Kamil 'Novik' Nowicki <novik@axisos.org>
+Build-Depends: debhelper-compat (= 12),
+               meson (>= 0.49.0),
+               pkg-config,
+               libxfce4panel-2.0-dev (>= 4.16.0),
+               libxfce4ui-2-dev (>= 4.16.0),
+               libxfce4util-dev (>= 4.16.0),
+               libgtk-3-dev (>= 3.24.0),
+               libglib2.0-dev (>= 2.66.0),
+               libexo-2-dev (>= 4.16.0),
+               libdbus-glib-1-dev (>= 0.110)
+Standards-Version: 4.5.0
+Homepage: https://axisos.org
+Vcs-Browser: https://github.com/Axis0S/xfce4-applemenu-plugin
+Vcs-Git: https://github.com/Axis0S/xfce4-applemenu-plugin.git
+
+Package: xfce4-applemenu-plugin
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         xfce4-panel (>= 4.16.0)
+Recommends: pamac-manager | synaptic | gnome-software
+Description: Apple menu plugin for XFCE4 panel
+ A panel plugin for XFCE4 that mimics the macOS Apple menu, providing
+ a familiar and intuitive system menu experience for XFCE desktop users.
+ .
+ Features:
+  - Apple-style dropdown menu with Apple logo
+  - System information display
+  - Quick access to system preferences
+  - Package management integration
+  - System actions (sleep, restart, shutdown, lock, logout)
+  - Configurable options and transparency

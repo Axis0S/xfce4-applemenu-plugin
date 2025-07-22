@@ -1,0 +1,5 @@
+option('dbus',
+  type: 'feature',
+  value: 'auto',
+  description: 'Enable D-Bus support'
+)

@@ -1,0 +1,11 @@
+[Xfce Panel]
+Type=X-XFCE-PanelPlugin
+Name=Apple Menu
+Name[en]=Apple Menu
+Comment=macOS style global menu for XFCE
+Comment[en]=macOS style global menu for XFCE
+Icon=apple-logo
+X-XFCE-Module=applemenu
+X-XFCE-Internal=FALSE
+X-XFCE-API=2.0
+X-XFCE-Bugzilla=https://github.com/Axis0S/xfce4-applemenu-plugin/issues
